@@ -28,6 +28,7 @@ To use the hash table, import the HashTable class from the project's Python file
 from solution import HashTable
 
 <br>
+
 **Create a hash table**
 hash_table = HashTable()
 <br>
@@ -37,20 +38,24 @@ hash_table["key1"] = "value1"
 hash_table["key2"] = "value2"
 <br>
 
-# Retrieve a value
+**Retrieve a value**
 value = hash_table["key1"]
+<br>
 
-# Delete a key
+**Delete a key**
 del hash_table["key2"]
+<br>
 
-# Check if a key exists
+**Check if a key exists**
 if "key1" in hash_table:
     print("Key1 exists in the hash table")
+<br>
 
-# Get all keys
+**Get all keys**
 keys = hash_table.keys()
+<br>
 
-# Clear the hash table
+**Clear the hash table**
 hash_table.clear()
 
 <br>
