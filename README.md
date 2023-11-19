@@ -1,15 +1,5 @@
 # Hash-Tables
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Hash Table Project</title>
-</head>
-<body>
-
-<h1>Hash Table Project</h1>
-
 <h2>Overview</h2>
 <p>
     The Hash Table Project is a comprehensive implementation of a hash table data structure in Python. It provides 
