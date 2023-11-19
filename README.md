@@ -27,12 +27,15 @@ To use the hash table, import the HashTable class from the project's Python file
 
 from solution import HashTable
 
-# Create a hash table
+<br>
+**Create a hash table**
 hash_table = HashTable()
+<br>
 
-# Insert key-value pairs
+**Insert key-value pairs**
 hash_table["key1"] = "value1"
 hash_table["key2"] = "value2"
+<br>
 
 # Retrieve a value
 value = hash_table["key1"]
