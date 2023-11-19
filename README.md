@@ -26,7 +26,6 @@ To use the hash table, import the HashTable class from the project's Python file
 <br>
 
 from solution import HashTable
-
 <br>
 
 **Create a hash table**
