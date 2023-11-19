@@ -30,32 +30,41 @@ from solution import HashTable
 <br>
 
 **Create a hash table**
+<br>
 hash_table = HashTable()
 <br>
 
 **Insert key-value pairs**
+<br>
 hash_table["key1"] = "value1"
+<br>
 hash_table["key2"] = "value2"
 <br>
 
 **Retrieve a value**
+<br>
 value = hash_table["key1"]
 <br>
 
 **Delete a key**
+<br>
 del hash_table["key2"]
 <br>
 
 **Check if a key exists**
+<br>
 if "key1" in hash_table:
+<br>
     print("Key1 exists in the hash table")
 <br>
 
 **Get all keys**
+<br>
 keys = hash_table.keys()
 <br>
 
 **Clear the hash table**
+<br>
 hash_table.clear()
 
 <br>
