@@ -51,7 +51,8 @@
 
 <h2>Plagiarism Detection Application</h2>
 <p>
-    Use the function `is_plagiarism` with two lists of melodies and a similarity threshold to detect song plagiarism.
+    To use the plagiarism detection feature, provide two lists of melodies (each melody represented as a list of integers) and a maximum similarity threshold. The function is_plagiarism will return True if the number of similar melodies exceeds the threshold.
+
 </p>
 
 <h2>Requirements</h2>
@@ -59,21 +60,6 @@
     <li>Python 3.x</li>
 </ul>
 
-<h2>Contributing</h2>
-<p>
-    Contributions and suggestions are welcome. Feel free to fork and submit pull requests.
-</p>
-
-<h2>License</h2>
-<p>
-    This project is licensed under the <a href="LICENSE.txt">MIT License</a>.
-</p>
-
-<h2>Authors</h2>
-<ul>
-    <li>Your Name</li>
-    <li>Collaborators' Names</li>
-</ul>
 
 </body>
 </html>
