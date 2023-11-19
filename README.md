@@ -22,6 +22,7 @@ The Hash Table Project is a comprehensive implementation of a hash table data st
 <br>
 To use the hash table, import the HashTable class from the project's Python file. You can then create an instance of the hash table and use its methods to perform various operations.
 <br>
+
 **Example:**
 <br>
 
