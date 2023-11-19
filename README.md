@@ -1,81 +1,89 @@
 # Hash-Tables
 
-**Overview**
-<br>
-The Hash Table Project is a comprehensive implementation of a hash table data structure in Python. It is designed to provide a deep understanding of how hash tables work, including handling of collisions, resizing, and various operations like insertion, deletion, and retrieval. The project also includes a real-world application to detect song plagiarism based on melody similarity, showcasing the practical use of hash tables.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hash Table Project</title>
+</head>
+<body>
 
-<br>
+<h1>Hash Table Project</h1>
 
-**Features**
-<br>
-1. Custom Hash Table Implementation: A HashTable class with standard hash table functionalities.
-2. Collision Handling: Implements double hashing to efficiently handle collisions.
-3. Dynamic Resizing: Automatic resizing of the hash table to maintain optimal load factors.
-4. Key-Value Storage: Supports storing and managing key-value pairs.
-5. Basic Operations: Includes methods for insertion (__setitem__), deletion (__delitem__), and retrieval (__getitem__).
-6. Additional Utilities: Methods for clearing the table (clear), retrieving keys (keys), values (values), and items (items).
-7. Plagiarism Detection: An application to detect similarity in melodies between songs, demonstrating a practical use case of hash tables.
+<h2>Overview</h2>
+<p>
+    The Hash Table Project is a comprehensive implementation of a hash table data structure in Python. It provides 
+    an in-depth understanding of hash tables, including collision handling, dynamic resizing, and key-value operations.
+    The project also includes an application for plagiarism detection in songs, showcasing the practicality of hash tables.
+</p>
 
-<br>
+<h2>Features</h2>
+<ul>
+    <li><strong>Custom Hash Table Implementation</strong>: A fully featured `HashTable` class.</li>
+    <li><strong>Collision Handling</strong>: Efficiently manages collisions using double hashing.</li>
+    <li><strong>Dynamic Resizing</strong>: Automatically resizes for optimal performance.</li>
+    <li><strong>Key-Value Storage</strong>: Stores and manages key-value pairs.</li>
+    <li><strong>Basic Operations</strong>: Supports insertion, deletion, and retrieval.</li>
+    <li><strong>Additional Utilities</strong>: Methods for clearing, and retrieving keys, values, and items.</li>
+    <li><strong>Plagiarism Detection</strong>: Application to detect similarities in melodies between songs.</li>
+</ul>
 
-**Usage**
-<br>
-To use the hash table, import the HashTable class from the project's Python file. You can then create an instance of the hash table and use its methods to perform various operations.
+<h2>Usage</h2>
+<p>
+    Import the `HashTable` class from the project's Python file. Create an instance and use its methods for various operations.
+</p>
+<code>
+    from solution import HashTable<br>
+    <br>
+    # Create a hash table<br>
+    hash_table = HashTable()<br>
+    <br>
+    # Insert key-value pairs<br>
+    hash_table["key1"] = "value1"<br>
+    hash_table["key2"] = "value2"<br>
+    <br>
+    # Retrieve a value<br>
+    value = hash_table["key1"]<br>
+    <br>
+    # Delete a key<br>
+    del hash_table["key2"]<br>
+    <br>
+    # Check for key existence<br>
+    if "key1" in hash_table:<br>
+        print("Key1 exists in the hash table")<br>
+    <br>
+    # Get all keys<br>
+    keys = hash_table.keys()<br>
+    <br>
+    # Clear the hash table<br>
+    hash_table.clear()<br>
+</code>
 
-<br>
+<h2>Plagiarism Detection Application</h2>
+<p>
+    Use the function `is_plagiarism` with two lists of melodies and a similarity threshold to detect song plagiarism.
+</p>
 
-**Example:**
-<br>
+<h2>Requirements</h2>
+<ul>
+    <li>Python 3.x</li>
+</ul>
 
-from solution import HashTable
-<br>
+<h2>Contributing</h2>
+<p>
+    Contributions and suggestions are welcome. Feel free to fork and submit pull requests.
+</p>
 
-**Create a hash table**
-<br>
-hash_table = HashTable()
-<br>
+<h2>License</h2>
+<p>
+    This project is licensed under the <a href="LICENSE.txt">MIT License</a>.
+</p>
 
-**Insert key-value pairs**
-<br>
-hash_table["key1"] = "value1"
-<br>
-hash_table["key2"] = "value2"
-<br>
+<h2>Authors</h2>
+<ul>
+    <li>Your Name</li>
+    <li>Collaborators' Names</li>
+</ul>
 
-**Retrieve a value**
-<br>
-value = hash_table["key1"]
-<br>
-
-**Delete a key**
-<br>
-del hash_table["key2"]
-<br>
-
-**Check if a key exists**
-<br>
-if "key1" in hash_table:
-<br>
-    print("Key1 exists in the hash table")
-<br>
-
-**Get all keys**
-<br>
-keys = hash_table.keys()
-<br>
-
-**Clear the hash table**
-<br>
-hash_table.clear()
-
-<br>
-
-**Plagiarism Detection Application**
-<br>
-To use the plagiarism detection feature, provide two lists of melodies (each melody represented as a list of integers) and a maximum similarity threshold. The function is_plagiarism will return True if the number of similar melodies exceeds the threshold.
-
-<br>
-
-**Requirements**
-<br>
-Python 3.x
+</body>
+</html>
